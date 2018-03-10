@@ -6,7 +6,7 @@
 
 
 
-'''def foo(a):
+'''def foo(a):hfdjfhdjfhdjfh
     if a == 4:
         print ("ba")
     else:
@@ -14,7 +14,7 @@
 
 
 
-for i in range(10):
+for i in range(10):g
     print (i)
     foo(i)
 
