@@ -1,7 +1,3 @@
-def plusminus (a,b):
-    x = a+b
-    y = a-b
-    return x, y
 
 def is_prime (n):
     for x in range (2,n):
