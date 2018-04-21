@@ -1,26 +1,5 @@
-# for i in range (1,1000):
-#    i % 3 = 0
-#    i % 5 = 0
-
-#    print (i)
-
-
-
-'''def foo(a):hfdjfhdjfhdjfh
-    if a == 4:
-        print ("ba")
-    else:
-        print ("ya")
-
-
-
-for i in range(10):g
-    print (i)
-    foo(i)
-
-'''
-
-
+'''Find the sum of all the multiples of 3 or 5 below 1000.
+answer: 233168 '''
 def foo(n):
     a = 0
     for x in range(1, n ):
@@ -32,7 +11,7 @@ def foo(n):
 
         elif x % 5 == 0:
             print(x, "Is divisible by 5")
-
+    
             a = a + x
 
     print(a)

@@ -12,10 +12,18 @@ def is_prime (n):
 
     return True
 
+c=0
+n = 22
+for i in range (2,int(n/2)+1):
+    if i % 2 == 1 and is_prime (i):
+        c=i
+        print (c)
+        
+        
 
-for i in range(0,20):
-    a = is_prime(i)
-    print (i, a)
+
+
+
 
 
 
